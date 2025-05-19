@@ -41,3 +41,5 @@ models:
     +materialized: table
     example:
       +materialized: view
+    staging:
+      +materialized: view      
