@@ -5,7 +5,7 @@ sources:
     database: raw
     schema: stripe
     tables:
-      - name: payments
+      - name: payment
         description: Raw stripe payment data
         identifier: payment
         loaded_at_field: _batched_at
